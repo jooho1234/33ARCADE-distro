@@ -11,7 +11,7 @@
       "id": "33ARCADE-1.19.3",
       "name": "33ARCADE (Minecraft 1.19.3)",
       "description": "33ARCADE Running Minecraft 1.19.3 (Fabric v0.15.11)",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/jooho1234/33ARCADE/main/build/icon.png",
       "version": "1.0.0",
       "address": "33arcade.kro.kr",
       "minecraftVersion": "1.19.3",
