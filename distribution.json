@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "33ARCADE-1.19.3",
+      "name": "33ARCADE (Minecraft 1.19.3)",
+      "description": "33ARCADE Running Minecraft 1.19.3 (Fabric v0.15.11)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "33arcade.kro.kr",
+      "minecraftVersion": "1.19.3",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1327691,
+            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
+            "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.3-fabric-0.15.11",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "26d6e484682b07482f689a96d0f4b950",
+                "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/versions/1.19.3-fabric-0.15.11/1.19.3-fabric-0.15.11.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1458875,
+                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
+                "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.19.3",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 540855,
+                "MD5": "d10ea75214d9700f915c0d9b239d2ca0",
+                "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/repo/lib/net/fabricmc/intermediary/1.19.3/intermediary-1.19.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.76.1+1.19.3@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1940232,
+            "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/servers/33ARCADE-1.19.3/fabricmods/required/fabric-api-0.76.1+1.19.3.jar",
+            "MD5": "e75fe88c1d2b0c8b627d35c7f26792ee"
+          }
+        },
+        {
+          "id": "BSL_v8.2.04.zip",
+          "name": "BSL_v8.2.04.zip",
+          "type": "File",
+          "artifact": {
+            "size": 932543,
+            "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/servers/33ARCADE-1.19.3/files/shaderpacks/BSL_v8.2.04.zip",
+            "MD5": "9b7be3e5521d70f9ffa0aa19d8b484cc",
+            "path": "shaderpacks/BSL_v8.2.04.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
