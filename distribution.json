@@ -126,6 +126,32 @@
           }
         },
         {
+          "id": "generated.fabricmod:iris:1.5.2@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2290376,
+            "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/servers/33ARCADE-1.19.3/fabricmods/optionalon/iris-mc1.19.3-1.5.2.jar",
+            "MD5": "d5d17090e407a2dafd6f8f2bccf8a540"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.4.9+build.23@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 707249,
+            "url": "https://raw.githubusercontent.com/jooho1234/33ARCADE-distro/main/servers/33ARCADE-1.19.3/fabricmods/optionalon/sodium-fabric-mc1.19.3-0.4.9+build.23.jar",
+            "MD5": "d410e9b6d456cc69065d0dd359c65fa3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "BSL_v8.2.04.zip",
           "name": "BSL_v8.2.04.zip",
           "type": "File",
